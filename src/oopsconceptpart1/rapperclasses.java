@@ -22,9 +22,13 @@ class A {
     String name;
 
     public A(String name){
+        System.out.println("object destroyed");
         this.name=name;
     }
 
+    }
 
-}
+
+
+
 
